@@ -1,0 +1,155 @@
+/* 
++++++++++++++
+    GENERAL
++++++++++++++
+*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+img { 
+    width:100%;
+    height: 100%;
+
+}
+
+/* 
++++++++++++++
+    MOBILE
++++++++++++++
+*/
+main > section {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 4% 0;
+}
+
+.section__title {
+    color: rgb(15, 189, 87); 
+    width:100%;
+    text-align: center;
+    margin-bottom: 4% ;
+}
+
+
+.section__text { 
+    width: 80%;
+    text-align: justify;
+    margin: 4% 0;
+}
+
+
+/* 
++++++++++++++
+    abaut
++++++++++++++
+*/
+#section__abaut { 
+background-color: #8349a7
+}
+
+/* 
++++++++++++++
+    SERVICIOS
++++++++++++++
+*/
+.card-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-text{
+    text-align: center;
+}
+
+#section__service { 
+    background-color: #7c6a87
+    }
+/* 
++++++++++++++
+    GALLERY
++++++++++++++
+*/
+#section_gallery { 
+background-color: green;
+}
+
+.gallery__photo{
+    width: 80%;
+    height: 20vh;
+    margin-bottom: 3%;
+}
+
+/* 
++++++++++++++
+    CONTAC
++++++++++++++
+*/
+#section__contact { 
+    background-color: rgb(77, 73, 73);
+    color: white;
+}
+
+#section__contact .section__title { 
+    color: white;
+}
+
+#section__contact form { 
+    width:80%    
+}
+
+#section__contact .from-lebel {
+    color: white;
+}
+
+.btn-contact {
+    width: 100%;
+}
+
+
+/* 
++++++++++++++
+    FOOTER
++++++++++++++
+*/
+
+footer {
+	width: 100%;
+	height: 15vh;
+	background-color: blue;
+	color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* 
++++++++++++++
+    DESTOCK
++++++++++++++
+*/
+
+@media(min-width:1024px) {
+
+    .section__title {
+        margin: 4% 0;
+    }   
+
+    main > section { 
+    justify-content: space-around;
+    }
+
+    .gallery__photo{
+        width: 30%;
+        height: 35vh;
+        margin-bottom: 3%;
+    }
+}
+

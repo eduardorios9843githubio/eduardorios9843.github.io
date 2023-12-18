@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> CLASE 7 BOOTSTRAP| FLEX BOX </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="./public/css/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">ENFOQUE B</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">NOSOTROS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">SERVICIOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CONTACTO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">CAPACITACIONES</a>
+                            </li>
+                        </ul>    
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">CURRICULUM</a></li>
+                                <li><a class="dropdown-item" href="#">CARTA DE PRESENTACION</a></li>
+                                <li><a class="dropdown-item" href="#">PERFILES DIGITALES</a></li>
+                                <li><a class="dropdown-item" href="#">PERFIL LINKEDIN</a></li>    
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                    </div>
+                </nav>
+        </header>
+        <main>
+            <section id="section__abaut">
+                <h2 class="section__title">-NOSOTROS-</h2>
+                <P class="section__text">
+                    Brindar asesoramiento e información útil y práctica para realizar una búsqueda laboral efectiva.
+                    Fomentando el movimiento hacia el empleo registrado y que brinde la oportunidad de alcanzar el máximo potencial de cada persona.
+                </P>
+            </section>
+            <section id="section__service">
+                <h2 class="section__title" > - SERVICIOS - </h2>
+                <div class="card" style="width: 18rem;">
+                    <img src="./public/img/curriculum atrativo.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">CURRICULUM ATRACTIVO</h5>
+                        <p class="card-text">Es muy importante atraer al reclutador para que vea nuestro CURRICULUM.
+
+                            ¿Cómo lo hacemos?
+                            
+                            Utilizando las palabras claves que él espera encontrar, que él espera que tu le digas y que debes dominar.</p>
+                        <a href="#" class="btn btn-primary">VER MAS</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./public/img/internet como aliado.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">PERFILES DIGITALES</h5>
+                        <p class="card-text">Optimiza tu busqueda laboral usando internet como aliado.
+
+                            Por medio de los perfiles digitales vas a poder acceder a muchos puestos de trabajo que se ofrecen en internet y lo vas a poder hacer desde la comodidad de tu celular.</p>
+                        <a href="#" class="btn btn-primary">VER MAS</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./public/img/capacitaciones.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">CAPACITACIONES</h5>
+                        <p class="card-text">Adquiere las habilidades básicas  para resolver problemas y no sentirte abrumado por las tereas que debes realizar.
+
+                            Esto te permite mostrar seguridad y convencer al reclutador de que eres el indicado para ocupar el puesto al que aspiras.</p>
+                        <a href="#" class="btn btn-primary">VER MAS</a>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="section_gallery">
+                <h2 class="section__title">-GALERIA-
+                </h2>
+                    <div class="gallery__photo">
+                        <img src="./public/img/el buho clase6.jpg" alt="foto">
+                    </div>
+                    <div class="gallery__photo">
+                        <img src="./public/img/el buho clase6.jpg" alt="foto">
+                    </div>
+                    <div class="gallery__photo">
+                        <img src="./public/img/el buho clase6.jpg" alt="foto">
+                    </div>
+                    <div class="gallery__photo">
+                        <img src="./public/img/el buho clase6.jpg" alt="foto">
+                    </div>
+                    <div class="gallery__photo">
+                        <img src="./public/img/el buho clase6.jpg" alt="foto">
+                    </div>
+                    <div class="gallery__photo">
+                        <img src="./public/img/el buho clase6.jpg" alt="foto">
+                    </div>
+            </section>
+            
+            <section id="section__contact">
+                <h2 class="section__title">-CONTACTO-> </h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">NOMBRE</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">APELLIDO</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleinputEmail1" class="form-label">Email </label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleinputEmail1" class="form-label">confirme su email </label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check para eviar formulario</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-contact">ENVIAR</button>
+                        </form>    
+            </section>
+        </main>
+        
+        <footer>
+            <span>@ derechos reservados Eduardo 2023</span> 
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    </body>
+</html>
